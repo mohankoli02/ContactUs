@@ -18,7 +18,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("contact-us-backend-h915c3n8q-mohans-projects-f574f67f.vercel.app/api/contact", formData);
+      await axios.post("https://contact-us-backend-h915c3n8q-mohans-projects-f574f67f.vercel.app/api/contact", formData);
       setStatus("Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
