@@ -1,0 +1,82 @@
+/* Centering the form on the page */
+.contact-container {
+    max-width: 460px;
+    margin: 15vh auto; /* More vertical spacing */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    background-color: #1a1a2e; /* Rich dark blue background */
+    text-align: center;
+    color: #fff; /* White text */
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f4a261; /* Elegant gold */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 16px; /* Better spacing */
+}
+
+/* Input fields */
+input,
+textarea {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #17a2b8; /* Smooth cyan border */
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #f8f9fa; /* Light background */
+    color: #222;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Focus effect on input fields */
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #f4a261; /* Gold highlight */
+    box-shadow: 0 0 10px rgba(244, 162, 97, 0.6);
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+    height: 140px;
+}
+
+/* Submit button */
+button {
+    background-color: #f4a261; /* Gold button */
+    color: #1a1a2e; /* Dark text for contrast */
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #e76f51; /* Rich coral */
+    transform: translateY(-3px);
+}
+
+/* Success message */
+.status {
+    margin-top: 18px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #28a745; /* Success green */
+}
